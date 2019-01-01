@@ -47,7 +47,16 @@ body {
       left: 0;
       min-height: 300px; }
 
-#carouselButton {
+#CarouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+.modal-dialog .modal-header {
+  background: #512DA8;
+  color: floralwhite; }
+  .modal-dialog .modal-header button {
+    color: floralwhite; }
+
+.modal-dialog .modal-body {
+  background: #D1C4E9; }

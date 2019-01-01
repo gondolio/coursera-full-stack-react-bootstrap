@@ -28,7 +28,7 @@ $carousel-item-height: 300px;
 
 .jumbotron {
     @include zero-margin(70px,30px);
-    background: $background-light ;
+    background: $background-light;
     color:floralwhite;
 }
 
@@ -44,7 +44,7 @@ body{
 }
 
 .navbar-dark {
-     background-color: $background-dark;
+    background-color: $background-dark;
 }
 
 .tab-content {
@@ -56,7 +56,7 @@ body{
 
 .carousel {
     background:$background-dark;
-
+    
     .carousel-item {
         height: $carousel-item-height;
         img {
@@ -68,8 +68,26 @@ body{
     }
 }
 
-#carouselButton {
+// Carousel Button to bottom right and not take a whole row to itself
+#CarouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
+}
+
+// Modal styles
+.modal-dialog{ 
+    
+    .modal-header {
+        background: $background-dark; 
+        color:floralwhite;
+        
+        button {
+            color:floralwhite;    
+        }
+    }
+    
+    .modal-body{
+        background: $background-pale;
+    }
 }
